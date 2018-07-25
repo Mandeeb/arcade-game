@@ -1,6 +1,31 @@
-frontend-nanodegree-arcade-game
-===============================
+Classic Arcade Game Clone
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+
+Setup
+
+- Clone the following: https://github.com/Mandeeb/arcade-game.git
+- Use web browser to open index.html
+
+
+Play
+
+- This game is a clone of the classic game Frogger.
+- To win the game help the girl avoid the bugs so she can safely get across
+  the road to the water.  
+
+
+Different Characters
+
+- If a different character is desired follow these directions:
+    - Open the image folder and note the name of the character you want to use.
+    - Open the js folder and then open the app.js file.
+      - In app.js go to line 60 and change 'images/char-pink-girl.png'. The
+        name of the character you chose will replace the  'char-pink-girl'
+        portion of the line of code. Save the file.
+    - Open the js folder and then open the engine.js file.
+      - In engine.js go to line 176 and change 'images/char-pink-girl.png'. The
+        name of the character you chose will replace the 'char-pink-girl'
+        portion of the line of code. Save the file.
+    - Refresh the browser window that is open with index.html and get back to
+      playing!    
