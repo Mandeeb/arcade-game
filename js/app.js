@@ -1,6 +1,6 @@
 // Enemies our player must avoid
 
-var Enemy = function(x, y, speed) {
+const Enemy = function(x, y, speed) {
 
     // Variables applied to each of our instances go here,
     // we've provided one for you to get started
@@ -37,7 +37,7 @@ Enemy.prototype.update = function(dt) {
     player.y + 73 <= this.y + 135 &&
     player.y +131 >= this.y + 90) {
 
-    Player.reset();  
+    player.reset();
   }
 };
 
@@ -53,7 +53,7 @@ Enemy.prototype.render = function() {
 // This class requires an update(), render() and
 // a handleInput() method.
 
-var Player = function(x, y, speed) {
+const Player = function(x, y, speed) {
     this.x = x;
     this.y = y;
     this.speed = speed;
@@ -80,7 +80,7 @@ Player.prototype.update = function() {
   if (this.y < 0) {
     window.alert(`Congratulations! You won!`);
 
-    Player.reset();
+    player.reset();
   }
 };
 
