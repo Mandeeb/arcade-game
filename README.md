@@ -4,7 +4,7 @@ Classic Arcade Game Clone
 
 Setup
 
-- Clone the following: https://github.com/Mandeeb/arcade-game.git
+- Download or use git to clone the following: https://github.com/Mandeeb/arcade-game.git
 - Use web browser to open index.html
 
 
